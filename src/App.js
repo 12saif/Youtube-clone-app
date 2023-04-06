@@ -1,4 +1,5 @@
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
+import Sidebar from './Components/Sidebar/Sidebar';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* Header */}
       <Header />
       {/* Sidebar */}
+      <Sidebar/>
       {/* RecommendedVideo */}
     </div>
   );
