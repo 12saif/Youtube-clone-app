@@ -42,4 +42,5 @@
 .header__input > input {
   flex: 1;
   border: none;
+  outline: none;
 }
