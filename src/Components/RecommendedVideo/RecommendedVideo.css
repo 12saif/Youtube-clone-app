@@ -1,3 +1,4 @@
-.recommended__video{
+.recommendedVideo{
+    flex: 0.8;
     background-color: rgb(213, 185, 240);
 }
