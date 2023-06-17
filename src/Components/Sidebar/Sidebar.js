@@ -9,9 +9,10 @@ import SubscriptionsSharpIcon from '@mui/icons-material/SubscriptionsSharp';
 function Sidebar() {
   return (
     <div className="sidebar">
-      <SidebarRow Icon={HomeSharpIcon} title="Home" />
+      <SidebarRow selected Icon={HomeSharpIcon} title="Home" />
       <SidebarRow Icon={WhatshotSharpIcon} title="Trending" />
       <SidebarRow Icon={SubscriptionsSharpIcon} title="Subscription" />
+      <hr/>
     </div>
   );
 }
